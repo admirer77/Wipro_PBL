@@ -15,12 +15,9 @@ public class Fruit {
     public void eat(){
         System.out.println("Name of the Fruit: "+name+"\ntaste of the fruit"+taste);
     }
-
-
 }
 
 class Apple extends Fruit{
-    
     public void eat(){
         System.out.println("The Apple is sweet");
     }    
