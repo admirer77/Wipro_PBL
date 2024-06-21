@@ -21,6 +21,7 @@ public class Honda extends Vehicle {
 
     public int getSpeed() {
         System.out.println("Speed = 120 kmph");
+        return 120;
     }
 
     public void cdplayer() {

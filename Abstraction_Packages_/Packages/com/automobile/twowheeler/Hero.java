@@ -21,6 +21,7 @@ public class Hero extends Vehicle {
 
     public int getSpeed() {
         System.out.println("Speed = 110 kmph");
+        return 110;
     }
 
     public void radio() {
